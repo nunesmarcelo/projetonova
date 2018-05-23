@@ -1,0 +1,153 @@
+@encoding "utf-8";
+
+#tudo > header{
+	border-bottom: 29px solid #bdf;
+}
+
+
+
+header h1 span{
+	font-size: 32pt;
+	color: #1ff;
+	line-height:80px;
+	padding: 30px 20px;
+}
+
+h1>img{
+	width: 20%;
+}
+
+#tudo{
+	width: 960px;
+	margin: 10px auto;
+	background: #fff;
+}
+
+#meio{
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+
+a{
+	text-align:center;
+	color: #17B;
+}
+
+nav,main{
+	float: left;
+}
+
+nav{
+	width: 200px;
+}
+
+nav{
+	padding: 0;
+}
+
+nav ul li a{
+	text-decoration: none;
+	line-height: 30pt;
+	padding: 0 10px;
+	display: block;
+	margin: 0 10px;
+}
+
+nav ul li a:hover {
+	background: #bdf;
+}
+
+#menuClientes {
+	position: absolute;
+	top: 190px;
+	left: 380px;
+	border: #bdf solid 1px;
+	padding: 10px 5px;
+	display: none;
+	background: #fff;
+}
+
+#menuProjetos{
+	position: absolute;
+	top: 231px;
+	left: 380px;
+	border: #bdf solid 1px;
+	padding: 10px 5px;
+	display: none;
+	background: #fff;
+}
+
+nav ul li:hover #menuProjetos,nav ul li:hover #menuClientes{
+	display: block;
+	border: #bdf solid 1px;
+}
+
+
+main{
+	border: 1px solid #bdf;
+	border-width: 0 1px;
+	padding: 0 10px;
+	width: 495px;
+}
+
+h3{
+	font-size: 22pt;
+	line-height: 32pt;
+	margin-bottom: 20px;
+}
+
+p{ 
+	text-align: justify;
+	margin-bottom: 20px;
+	line-height: 18pt;
+}
+
+
+
+aside a{
+	display: block;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+aside img{
+	width: 55%;
+	
+}
+
+footer {
+	padding: 10px 20px;
+	border-top: 1px solid #bdf;
+	text-align: center;
+}
+
+small{
+	font-size: 10pt;
+}
+
+body{
+	background: url('../images/fundo-site.jpg') center top no-repeat;
+
+}
+
+
+table tr td col 3 {
+	display:none;
+}
+
+table, tr, th, td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px 10px;
+}
+
+th {
+	font-weight: bold;
+	background: #aae;
+}
+
+
